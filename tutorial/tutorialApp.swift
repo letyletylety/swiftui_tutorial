@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+/// app 의 시작 지점
 @main
 struct tutorialApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ModelData())
         }
     }
 }
