@@ -7,4 +7,4 @@
 ## 목록
 ColorPicker - 예전 UIKit 공식 예제 오마쥬
 
-![결과물](https://ibb.co/1q12KBX)
+![결과물](https://i.ibb.co/R0fHPt6/2021-06-18-4-19-47.png)
