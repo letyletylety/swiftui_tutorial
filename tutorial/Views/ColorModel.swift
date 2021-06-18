@@ -18,4 +18,11 @@ final class ColorModel : ObservableObject {
     func newColor() {
         color = Color(red: Double(redV), green: Double(greenV), blue: Double(blueV))
     }
+    
+    func reset() {
+        redV = 0
+        greenV = 0
+        blueV = 0
+        color = Color(red: Double(redV), green: Double(greenV), blue: Double(blueV))
+    }
 }
